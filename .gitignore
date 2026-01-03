@@ -1,0 +1,97 @@
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Backend (Python/FastAPI)
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/env/
+backend/venv/
+backend/ENV/
+backend/build/
+backend/dist/
+backend/*.egg-info/
+backend/.eggs/
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+backend/germanquest.db
+backend/.env
+backend/.env.local
+backend/logs/
+backend/*.log
+
+# Frontend (React Native/Expo)
+frontend/node_modules/
+frontend/.expo/
+frontend/.expo-shared/
+frontend/dist/
+frontend/npm-debug.*
+frontend/*.jks
+frontend/*.p8
+frontend/*.p12
+frontend/*.key
+frontend/*.mobileprovision
+frontend/*.orig.*
+frontend/web-build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# React Native
+frontend/android/
+frontend/ios/
+!frontend/android/.gitkeep
+!frontend/ios/.gitkeep
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
